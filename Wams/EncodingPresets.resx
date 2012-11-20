@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Mp4ToSmoothStreams" xml:space="preserve">
+    <value>&lt;taskDefinition xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#"&gt;
+  &lt;name&gt;MP4 to Smooth Streams&lt;/name&gt;
+  &lt;id&gt;5e1e1a1c-bba6-11df-8991-0019d1916af0&lt;/id&gt;
+  &lt;description xml:lang="en"&gt;Converts MP4 files encoded with H.264 (AVC) video and AAC-LC audio codecs to Smooth Streams.&lt;/description&gt;
+  &lt;inputFolder /&gt;
+  &lt;properties namespace="http://schemas.microsoft.com/iis/media/V4/TM/MP4ToSmooth#" prefix="mp4"&gt;
+    &lt;property name="keepSourceNames" required="false" value="true" helpText="This property tells the MP4 to Smooth task to keep the original file name rather than add the bitrate bitrate information." /&gt;
+  &lt;/properties&gt;
+  &lt;taskCode&gt;
+    &lt;type&gt;Microsoft.Web.Media.TransformManager.MP4toSmooth.MP4toSmooth_Task, Microsoft.Web.Media.TransformManager.MP4toSmooth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&lt;/type&gt;
+  &lt;/taskCode&gt;
+&lt;/taskDefinition&gt;</value>
+  </data>
+  <data name="SmoothStreamsToAppleHls" xml:space="preserve">
+    <value>&lt;taskDefinition xmlns="http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition#"&gt;
+    &lt;name&gt;Smooth Streams to Apple HTTP Live Streams&lt;/name&gt;
+  &lt;id&gt;A72D7A5D-3022-45f2-89B4-1DDC5457C111&lt;/id&gt;
+    &lt;description xml:lang="en"&gt;Converts on-demand Smooth Streams encoded with H.264 (AVC) video and AAC-LC audio codecs to Apple HTTP Live Streams (MPEG-2 TS) and creates an Apple HTTP Live Streaming playlist (.m3u8) file for the converted presentation.&lt;/description&gt;
+    &lt;inputDirectory&gt;&lt;/inputDirectory&gt;
+    &lt;outputFolder&gt;TS_Out&lt;/outputFolder&gt;
+    &lt;properties namespace="http://schemas.microsoft.com/iis/media/AppleHTTP#" prefix="hls"&gt;
+        &lt;property name="maxbitrate" required="true" value="8500000" helpText="The maximum bit rate, in bits per second (bps), to be converted to MPEG-2 TS. On-demand Smooth Streams at or below this value are converted to MPEG-2 TS segments. Smooth Streams above this value are not converted. Most Apple devices can play media encoded at bit rates up to 8,500 Kbps."/&gt;
+        &lt;property name="manifest" required="false" value="" helpText="The file name to use for the converted Apple HTTP Live Streaming playlist file (a file with an .m3u8 file name extension). If no value is specified, the following default value is used: &amp;lt;ISM_file_name&amp;gt;-m3u8-aapl.m3u8"/&gt;
+        &lt;property name="segment" required="false" value="10" helpText="The duration of each MPEG-2 TS segment, in seconds. 10 seconds is the Apple-recommended setting for most Apple mobile digital devices."/&gt;
+        &lt;property name="log"  required="false" value="" helpText="The file name to use for a log file (with a .log file name extension) that records the conversion activity. If you specify a log file name, the file is stored in the task output folder." /&gt;
+        &lt;property name="encrypt"  required="false" value="false" helpText="Enables encryption of MPEG-2 TS segments by using the Advanced Encryption Standard (AES) with a 128-bit key (AES-128)." /&gt;
+        &lt;property name="pid"  required="false" value="" helpText="The program ID of the MPEG-2 TS presentation. Different encodings of MPEG-2 TS streams in the same presentation use the same program ID so that clients can easily switch between bit rates." /&gt;
+        &lt;property name="codecs"  required="false" value="false" helpText="Enables codec format identifiers, as defined by RFC 4281, to be included in the Apple HTTP Live Streaming playlist (.m3u8) file." /&gt;
+        &lt;property name="backwardcompatible"  required="false" value="false" helpText="Enables playback of the MPEG-2 TS presentation on devices that use the Apple iOS 3.0 mobile operating system." /&gt;
+        &lt;property name="allowcaching"  required="false" value="true" helpText="Enables the MPEG-2 TS segments to be cached on Apple devices for later playback." /&gt;
+        &lt;property name="passphrase"  required="false" value="" helpText="A passphrase that is used to generate the content key identifier." /&gt;
+        &lt;property name="key"  required="false" value="" helpText="The hexadecimal representation of the 16-octet content key value that is used for encryption." /&gt;
+        &lt;property name="keyuri"  required="false" value="" helpText="An alternate URI to be used by clients for downloading the key file. If no value is specified, it is assumed that the Live Smooth Streaming publishing point provides the key file." /&gt;
+        &lt;property name="overwrite"  required="false" value="true" helpText="Enables existing files in the output folder to be overwritten if converted output files have identical file names." /&gt;
+    &lt;/properties&gt;
+    &lt;taskCode&gt;
+        &lt;type&gt;Microsoft.Web.Media.TransformManager.SmoothToHLS.SmoothToHLSTask, Microsoft.Web.Media.TransformManager.SmoothToHLS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&lt;/type&gt;
+    &lt;/taskCode&gt;
+&lt;/taskDefinition&gt;</value>
+  </data>
+</root>
